@@ -29,4 +29,6 @@ public class UserInfoController implements UserInfoServiceApi {
         this.logger.info("/hello, instanceId:{}, host:{}", eurekaInstanceConfig.getInstanceId(), eurekaInstanceConfig.getHostName(false));
         return "Hello, Spring Cloud! My port is " + String.valueOf(serverPort);
     }
+
+
 }
